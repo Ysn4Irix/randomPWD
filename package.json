@@ -1,0 +1,38 @@
+{
+  "name": "random-pwd",
+  "description": "A simple beautiful web application to generate unique randomized passwords",
+  "private": true,
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ysn4Irix/randomPWD.git"
+  },
+  "keywords": [
+    "javascript",
+    "svelte",
+    "sveltekit",
+    "sveltejs",
+    "password-generator"
+  ],
+  "author": "Ysn4Irix",
+  "license": "MIT",
+  "bugs": {
+    "url": "git+https://github.com/Ysn4Irix/randomPWD/issues"
+  },
+  "homepage": "https://github.com/Ysn4Irix/randomPWD#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "daisyui": "^2.31.0",
+    "svelte-clipboard": "^1.0.0"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.2",
+    "svelte": "^3.49.0",
+    "vite": "^3.1.0"
+  },
+  "type": "module"
+}
